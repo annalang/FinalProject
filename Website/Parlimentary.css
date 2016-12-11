@@ -1,0 +1,90 @@
+#header {
+  width: 100%;
+  margin: 5px 5px 5px 5px;
+  border: black 2px solid;
+  padding: 3px 3px 3px 3px;
+  background-color: #C9BFC6;
+  }
+
+#format{
+      margin: 60px 150px 60px 150px ;
+
+    }
+
+#board{
+  text-align: center;
+}
+
+#title{
+  font-family: fantasy;
+  font-size: 40px;
+  text-align: center;
+
+}
+#footer{
+  width: 100%;
+  margin: 1000px 5px 5px 5px;
+  border: black 2px solid;
+  padding: 3px 3px 3px 3px;
+  background-color: #C9BFC6;
+}
+
+/* this piece of code came from http://stackoverflow.com/questions/10588271/css-three-column-layout-with-image-and-middle-height */
+    /* the main wrapper */
+    .content {
+      position: absolute; top: 50%; left: 50%;
+      width: 800px; height: 500px;
+      margin-left: -401px; margin-top: -251px;
+
+    }
+
+    /* columns */
+.column {
+        position: absolute; top: 0; bottom: 0;
+        width: 180px;
+        padding: 10px;
+    }
+
+.column.left{
+        left: 0;
+        margin-top: 120px;
+    }
+.column.right {
+        right: 0;
+        margin-top: 120px;
+    }
+.column.center {
+        left: 200px; right: 200px;
+        text-align: center;
+        width: auto;
+        margin-top: 120px;
+    }
+
+.column.center img {
+        border: 1px solid #111; border-radius: 22px;
+        width: 200px; height: 128px;
+        margin: 0 auto;
+    }
+
+.column.left img {
+        border: 1px solid #111; border-radius: 22px;
+        width: 200px; height: 128px;
+        margin: 0 auto;
+}
+
+.column.right img {
+    border: 1px solid #111; border-radius: 22px;
+    width: 200px; height: 128px;
+    margin: 0 auto;
+  }
+
+body {
+    background-color: #B896AD ;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+#photo {
+    width: 200px;
+    height: 125px;
+  }

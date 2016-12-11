@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+    <title> Final Project </title>
+    <link href="ourstory.css" rel="stylesheet" type="text/css" />
+	</head>
+
+  <body>
+
+<table>
+ <tr>
+	 <td> <a href="home.html"> Home </a> </td>
+	 <td> <a href="ourstory.html"> Our Story </a> </td>
+	 <td> <a href="oursister.html"> Our Sisters </a> </td>
+	 <td> <a href="Recruitment.html"> Fun Things </a> </td>
+	 <td> <a href="ExecutiveBoard.html"> Executive Board </a> </td>
+	 <td> <a href="Parlimentary.html"> Parlimentary Board </a> </td>
+	 <td> <a href="contact.html"> Contact Us </a> </td>
+ </tr>
+</table>
+
+<p id="title"> Tau Sigma Phi; Delta Chapter Brock University </p>
+<h1> Our Story </h1>
+<p>
+	Tau Sigma Phi was founded on September 9th, 2007 in Ottawa, Ontario, Canada at Carleton University.
+	Our Founding Mothers; Kristin Dafoe, Halley Van Muyen, Natasha Hjort, Sarah Jones, and Sara Korajian;
+	united to build a foundation for women based on friendship and, more importantly, sisterhood. </p>
+
+
+<img class="flower" src="flower.jpg" alt="flower"/>
+
+ <p>
+	The five founding mothers of Tau Sigma Phi were all united on one solid front, unified by their
+	equally shared definition of sisterhood. This theme became the foundation upon which Tau Sigma Phi was
+	established. Their hardships were shared equally and each sister undyingly supported one another.
+	Loyalty was the most important value the five founding mothers agreed was of utmost worth. It was
+	evident from day one, that these five women shared the same values and beliefs of sisterhood, loyalty,
+	 and integrity, which is inevitably what drew them together. They felt as though they had no other
+	 choice but to found an organization that would attract women who felt as passionately as they did,
+	 and thus, the letters Tau, Sigma and Phi were a clear preference in the name they chose to bestow
+	 upon themselves, to be known eternally as True Sisters Forever.
+</p> <p>
+
+	 On July 19th, 2015, Tau Sigma Phi – Delta chapter was founded in St. Catharines, Ontario, at Brock
+	 University. The hard work of the 5 Founding Sisters, Emily Wendel, Amalia Banava, Sophie Ford,
+	 Jaclyn Macros and Amanda Bourdeau, made this chapter successful from day one. </p>
+
+<!--  http://www.ricocheting.com/code/javascript/html-generator/countdown-timer-->
+
+	 <script type="text/javascript">
+
+	today = new Date();
+
+	BigDay = new Date("January 1, 2017");
+
+	msPerDay = 24 * 60 * 60 * 1000 ;
+
+	timeLeft = (BigDay.getTime() - today.getTime());
+
+	e_daysLeft = timeLeft / msPerDay;
+
+	daysLeft = Math.floor(e_daysLeft);
+
+	e_hrsLeft = (e_daysLeft - daysLeft)*24;
+
+	hrsLeft = Math.floor(e_hrsLeft);
+
+	minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+
+	document.write("There are only " + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left until Winter Rush BEGINS! ");
+
+	</script>
+
+	<!-- http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation_watchposition -->
+
+	<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";}
+    }
+
+function showPosition(position) {
+    x.innerHTML="Latitude: " + position.coords.latitude +
+    " Longitude: " + position.coords.longitude;
+}
+</script>
+
+
+<p> Please note that we currently have Chapters in Brock Unversity, McMaster Unversity, Carleton University, and York University. If you are interested in joining please visit our Contact Us page. </p>
+
+<table id="footer">
+ <tr>
+	 <td> <span id="clocktwo"> </span> </td>
+	 <td> Brock University St Catharines. </td>
+ </tr>
+</table>
+	<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" src="java.js"></script>
+  </body>
+</html>

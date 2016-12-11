@@ -1,0 +1,46 @@
+table {
+  width: 100%;
+  margin: 5px 5px 5px 5px;
+  border: black 2px solid;
+  padding: 3px 3px 3px 3px;
+  background-color: #C9BFC6;
+  }
+
+  body {
+    background-color: #B896AD ;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+#colour{
+  background-color: #C9BFC6;
+}
+
+#footer{
+  width: 100%;
+  margin: 5px 5px 5px 5px;
+  border: black 2px solid;
+  padding: 3px 3px 3px 3px;
+}
+
+#title{
+  font-family: fantasy;
+  font-size: 40px;
+  text-align: center;
+}
+
+.flower {
+  height: 250px;
+  width: 400px;
+  display: block;
+  float: right;
+
+}

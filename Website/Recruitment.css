@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  margin: 5px 5px 5px 5px;
+  border: black 2px solid;
+  padding: 3px 3px 3px 3px;
+  }
+
+  body {
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+
+h1{
+  font-size: 75px;
+  text-align: center;
+}
+
+    #title{
+      font-family: fantasy;
+      font-size: 40px;
+      text-align: center;
+
+    }
+    #picture{
+      background-image: url("http://cdn.wallpapersafari.com/77/24/DNjeG0.jpg");
+    }
+#footer{
+  width: 100%;
+  margin: 5px 5px 5px 5px;
+  border: black 2px solid;
+  padding: 3px 3px 3px 3px;
+}
